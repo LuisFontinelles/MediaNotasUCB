@@ -1,0 +1,118 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    min-width: 500px;
+    padding: 10px;
+    font-family: system-ui;
+    text-align: center;
+    margin: 0;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+}
+
+
+.subnotes-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.grade-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.subnote-checkbox {
+    margin-right: 10px;
+}
+
+.grade-label {
+    font-weight: bold;
+    margin-right: 10px;
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    display: block;
+}
+
+
+.grade-point {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
+.subnote-value {
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#grades-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#grades-n1, #grades-n2 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+#segment-picker {
+    margin-bottom: 20px;
+}
+
+#segment-picker button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+    outline: none;
+}
+
+#segment-picker button.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+#segment-picker button:not(.active) {
+    background: #f0f0f0;
+    color: #333;
+}
+
+#manual-inputs {
+    margin-top: 20px;
+}
+
+#manual-inputs input {
+    width: 200px;
+    padding: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}

@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A796372C727E40004A8C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796362C727E40004A8C61 /* AppDelegate.swift */; };
+		37A796392C727E40004A8C61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796382C727E40004A8C61 /* SceneDelegate.swift */; };
+		37A7963C2C727E40004A8C61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37A7963B2C727E40004A8C61 /* Base */; };
+		37A7963F2C727E40004A8C61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37A7963E2C727E40004A8C61 /* Base */; };
+		37A796482C727E40004A8C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796472C727E40004A8C61 /* AppDelegate.swift */; };
+		37A7964B2C727E40004A8C61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37A7964A2C727E40004A8C61 /* Base */; };
+		37A796522C727E40004A8C61 /* MediaNotasUCB Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37A796512C727E40004A8C61 /* MediaNotasUCB Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37A7965C2C727E40004A8C61 /* MediaNotasUCB Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37A7965B2C727E40004A8C61 /* MediaNotasUCB Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37A796622C727E40004A8C61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37A7961E2C727E3F004A8C61 /* Base */; };
+		37A796632C727E40004A8C61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 37A7961E2C727E3F004A8C61 /* Base */; };
+		37A796642C727E40004A8C61 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A7961F2C727E3F004A8C61 /* Icon.png */; };
+		37A796652C727E40004A8C61 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A7961F2C727E3F004A8C61 /* Icon.png */; };
+		37A796662C727E40004A8C61 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37A796202C727E3F004A8C61 /* Style.css */; };
+		37A796672C727E40004A8C61 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37A796202C727E3F004A8C61 /* Style.css */; };
+		37A796682C727E40004A8C61 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A796212C727E3F004A8C61 /* Script.js */; };
+		37A796692C727E40004A8C61 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A796212C727E3F004A8C61 /* Script.js */; };
+		37A7966A2C727E40004A8C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796222C727E3F004A8C61 /* ViewController.swift */; };
+		37A7966B2C727E40004A8C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796222C727E3F004A8C61 /* ViewController.swift */; };
+		37A7966C2C727E40004A8C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A796232C727E40004A8C61 /* Assets.xcassets */; };
+		37A7966D2C727E40004A8C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A796232C727E40004A8C61 /* Assets.xcassets */; };
+		37A7966E2C727E40004A8C61 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796252C727E40004A8C61 /* SafariWebExtensionHandler.swift */; };
+		37A7966F2C727E40004A8C61 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A796252C727E40004A8C61 /* SafariWebExtensionHandler.swift */; };
+		37A796702C727E40004A8C61 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 37A796272C727E40004A8C61 /* _locales */; };
+		37A796712C727E40004A8C61 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 37A796272C727E40004A8C61 /* _locales */; };
+		37A796722C727E40004A8C61 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 37A796282C727E40004A8C61 /* images */; };
+		37A796732C727E40004A8C61 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 37A796282C727E40004A8C61 /* images */; };
+		37A796742C727E40004A8C61 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A796292C727E40004A8C61 /* manifest.json */; };
+		37A796752C727E40004A8C61 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A796292C727E40004A8C61 /* manifest.json */; };
+		37A796762C727E40004A8C61 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962A2C727E40004A8C61 /* background.js */; };
+		37A796772C727E40004A8C61 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962A2C727E40004A8C61 /* background.js */; };
+		37A796782C727E40004A8C61 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962B2C727E40004A8C61 /* content.js */; };
+		37A796792C727E40004A8C61 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962B2C727E40004A8C61 /* content.js */; };
+		37A7967A2C727E40004A8C61 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962C2C727E40004A8C61 /* popup.html */; };
+		37A7967B2C727E40004A8C61 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962C2C727E40004A8C61 /* popup.html */; };
+		37A7967C2C727E40004A8C61 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962D2C727E40004A8C61 /* popup.css */; };
+		37A7967D2C727E40004A8C61 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962D2C727E40004A8C61 /* popup.css */; };
+		37A7967E2C727E40004A8C61 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962E2C727E40004A8C61 /* popup.js */; };
+		37A7967F2C727E40004A8C61 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 37A7962E2C727E40004A8C61 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37A796532C727E40004A8C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A796172C727E3E004A8C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A796502C727E40004A8C61;
+			remoteInfo = "MediaNotasUCB Extension (iOS)";
+		};
+		37A7965D2C727E40004A8C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A796172C727E3E004A8C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A7965A2C727E40004A8C61;
+			remoteInfo = "MediaNotasUCB Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37A796852C727E40004A8C61 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37A796522C727E40004A8C61 /* MediaNotasUCB Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A7968C2C727E40004A8C61 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37A7965C2C727E40004A8C61 /* MediaNotasUCB Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37A7961E2C727E3F004A8C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		37A7961F2C727E3F004A8C61 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		37A796202C727E3F004A8C61 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		37A796212C727E3F004A8C61 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		37A796222C727E3F004A8C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37A796232C727E40004A8C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A796252C727E40004A8C61 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		37A796272C727E40004A8C61 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		37A796282C727E40004A8C61 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		37A796292C727E40004A8C61 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		37A7962A2C727E40004A8C61 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		37A7962B2C727E40004A8C61 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		37A7962C2C727E40004A8C61 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		37A7962D2C727E40004A8C61 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		37A7962E2C727E40004A8C61 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		37A796332C727E40004A8C61 /* MediaNotasUCB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaNotasUCB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A796362C727E40004A8C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A796382C727E40004A8C61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37A7963B2C727E40004A8C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37A7963E2C727E40004A8C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37A796402C727E40004A8C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A796452C727E40004A8C61 /* MediaNotasUCB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaNotasUCB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A796472C727E40004A8C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A7964A2C727E40004A8C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37A7964C2C727E40004A8C61 /* MediaNotasUCB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MediaNotasUCB.entitlements; sourceTree = "<group>"; };
+		37A796512C727E40004A8C61 /* MediaNotasUCB Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MediaNotasUCB Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A796562C727E40004A8C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A7965B2C727E40004A8C61 /* MediaNotasUCB Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MediaNotasUCB Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A796602C727E40004A8C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A796612C727E40004A8C61 /* MediaNotasUCB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MediaNotasUCB.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A796302C727E40004A8C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A796422C727E40004A8C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A7964E2C727E40004A8C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A796582C727E40004A8C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A796162C727E3E004A8C61 = {
+			isa = PBXGroup;
+			children = (
+				37A7961B2C727E3F004A8C61 /* Shared (App) */,
+				37A796242C727E40004A8C61 /* Shared (Extension) */,
+				37A796352C727E40004A8C61 /* iOS (App) */,
+				37A796462C727E40004A8C61 /* macOS (App) */,
+				37A796552C727E40004A8C61 /* iOS (Extension) */,
+				37A7965F2C727E40004A8C61 /* macOS (Extension) */,
+				37A796342C727E40004A8C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A7961B2C727E3F004A8C61 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				37A796222C727E3F004A8C61 /* ViewController.swift */,
+				37A796232C727E40004A8C61 /* Assets.xcassets */,
+				37A7961C2C727E3F004A8C61 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		37A7961C2C727E3F004A8C61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37A7961D2C727E3F004A8C61 /* Main.html */,
+				37A7961F2C727E3F004A8C61 /* Icon.png */,
+				37A796202C727E3F004A8C61 /* Style.css */,
+				37A796212C727E3F004A8C61 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37A796242C727E40004A8C61 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				37A796252C727E40004A8C61 /* SafariWebExtensionHandler.swift */,
+				37A796262C727E40004A8C61 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		37A796262C727E40004A8C61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37A796272C727E40004A8C61 /* _locales */,
+				37A796282C727E40004A8C61 /* images */,
+				37A796292C727E40004A8C61 /* manifest.json */,
+				37A7962A2C727E40004A8C61 /* background.js */,
+				37A7962B2C727E40004A8C61 /* content.js */,
+				37A7962C2C727E40004A8C61 /* popup.html */,
+				37A7962D2C727E40004A8C61 /* popup.css */,
+				37A7962E2C727E40004A8C61 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37A796342C727E40004A8C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A796332C727E40004A8C61 /* MediaNotasUCB.app */,
+				37A796452C727E40004A8C61 /* MediaNotasUCB.app */,
+				37A796512C727E40004A8C61 /* MediaNotasUCB Extension.appex */,
+				37A7965B2C727E40004A8C61 /* MediaNotasUCB Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A796352C727E40004A8C61 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				37A796362C727E40004A8C61 /* AppDelegate.swift */,
+				37A796382C727E40004A8C61 /* SceneDelegate.swift */,
+				37A7963A2C727E40004A8C61 /* LaunchScreen.storyboard */,
+				37A7963D2C727E40004A8C61 /* Main.storyboard */,
+				37A796402C727E40004A8C61 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		37A796462C727E40004A8C61 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				37A796472C727E40004A8C61 /* AppDelegate.swift */,
+				37A796492C727E40004A8C61 /* Main.storyboard */,
+				37A7964C2C727E40004A8C61 /* MediaNotasUCB.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		37A796552C727E40004A8C61 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				37A796562C727E40004A8C61 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		37A7965F2C727E40004A8C61 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				37A796602C727E40004A8C61 /* Info.plist */,
+				37A796612C727E40004A8C61 /* MediaNotasUCB.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A796322C727E40004A8C61 /* MediaNotasUCB (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A796862C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB (iOS)" */;
+			buildPhases = (
+				37A7962F2C727E40004A8C61 /* Sources */,
+				37A796302C727E40004A8C61 /* Frameworks */,
+				37A796312C727E40004A8C61 /* Resources */,
+				37A796852C727E40004A8C61 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A796542C727E40004A8C61 /* PBXTargetDependency */,
+			);
+			name = "MediaNotasUCB (iOS)";
+			productName = "MediaNotasUCB (iOS)";
+			productReference = 37A796332C727E40004A8C61 /* MediaNotasUCB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37A796442C727E40004A8C61 /* MediaNotasUCB (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A7968D2C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB (macOS)" */;
+			buildPhases = (
+				37A796412C727E40004A8C61 /* Sources */,
+				37A796422C727E40004A8C61 /* Frameworks */,
+				37A796432C727E40004A8C61 /* Resources */,
+				37A7968C2C727E40004A8C61 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37A7965E2C727E40004A8C61 /* PBXTargetDependency */,
+			);
+			name = "MediaNotasUCB (macOS)";
+			productName = "MediaNotasUCB (macOS)";
+			productReference = 37A796452C727E40004A8C61 /* MediaNotasUCB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37A796502C727E40004A8C61 /* MediaNotasUCB Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A796822C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB Extension (iOS)" */;
+			buildPhases = (
+				37A7964D2C727E40004A8C61 /* Sources */,
+				37A7964E2C727E40004A8C61 /* Frameworks */,
+				37A7964F2C727E40004A8C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MediaNotasUCB Extension (iOS)";
+			productName = "MediaNotasUCB Extension (iOS)";
+			productReference = 37A796512C727E40004A8C61 /* MediaNotasUCB Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		37A7965A2C727E40004A8C61 /* MediaNotasUCB Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A796892C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB Extension (macOS)" */;
+			buildPhases = (
+				37A796572C727E40004A8C61 /* Sources */,
+				37A796582C727E40004A8C61 /* Frameworks */,
+				37A796592C727E40004A8C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MediaNotasUCB Extension (macOS)";
+			productName = "MediaNotasUCB Extension (macOS)";
+			productReference = 37A7965B2C727E40004A8C61 /* MediaNotasUCB Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A796172C727E3E004A8C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					37A796322C727E40004A8C61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					37A796442C727E40004A8C61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					37A796502C727E40004A8C61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					37A7965A2C727E40004A8C61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 37A7961A2C727E3E004A8C61 /* Build configuration list for PBXProject "MediaNotasUCB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37A796162C727E3E004A8C61;
+			productRefGroup = 37A796342C727E40004A8C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A796322C727E40004A8C61 /* MediaNotasUCB (iOS) */,
+				37A796442C727E40004A8C61 /* MediaNotasUCB (macOS) */,
+				37A796502C727E40004A8C61 /* MediaNotasUCB Extension (iOS) */,
+				37A7965A2C727E40004A8C61 /* MediaNotasUCB Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A796312C727E40004A8C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A796642C727E40004A8C61 /* Icon.png in Resources */,
+				37A7963C2C727E40004A8C61 /* Base in Resources */,
+				37A796622C727E40004A8C61 /* Base in Resources */,
+				37A796682C727E40004A8C61 /* Script.js in Resources */,
+				37A7966C2C727E40004A8C61 /* Assets.xcassets in Resources */,
+				37A7963F2C727E40004A8C61 /* Base in Resources */,
+				37A796662C727E40004A8C61 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A796432C727E40004A8C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A796652C727E40004A8C61 /* Icon.png in Resources */,
+				37A796672C727E40004A8C61 /* Style.css in Resources */,
+				37A7964B2C727E40004A8C61 /* Base in Resources */,
+				37A796692C727E40004A8C61 /* Script.js in Resources */,
+				37A7966D2C727E40004A8C61 /* Assets.xcassets in Resources */,
+				37A796632C727E40004A8C61 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A7964F2C727E40004A8C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A796762C727E40004A8C61 /* background.js in Resources */,
+				37A7967C2C727E40004A8C61 /* popup.css in Resources */,
+				37A7967A2C727E40004A8C61 /* popup.html in Resources */,
+				37A796722C727E40004A8C61 /* images in Resources */,
+				37A796742C727E40004A8C61 /* manifest.json in Resources */,
+				37A796702C727E40004A8C61 /* _locales in Resources */,
+				37A796782C727E40004A8C61 /* content.js in Resources */,
+				37A7967E2C727E40004A8C61 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A796592C727E40004A8C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A796772C727E40004A8C61 /* background.js in Resources */,
+				37A7967D2C727E40004A8C61 /* popup.css in Resources */,
+				37A7967B2C727E40004A8C61 /* popup.html in Resources */,
+				37A796732C727E40004A8C61 /* images in Resources */,
+				37A796752C727E40004A8C61 /* manifest.json in Resources */,
+				37A796712C727E40004A8C61 /* _locales in Resources */,
+				37A796792C727E40004A8C61 /* content.js in Resources */,
+				37A7967F2C727E40004A8C61 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A7962F2C727E40004A8C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A7966A2C727E40004A8C61 /* ViewController.swift in Sources */,
+				37A796372C727E40004A8C61 /* AppDelegate.swift in Sources */,
+				37A796392C727E40004A8C61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A796412C727E40004A8C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A7966B2C727E40004A8C61 /* ViewController.swift in Sources */,
+				37A796482C727E40004A8C61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A7964D2C727E40004A8C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A7966E2C727E40004A8C61 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A796572C727E40004A8C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A7966F2C727E40004A8C61 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37A796542C727E40004A8C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A796502C727E40004A8C61 /* MediaNotasUCB Extension (iOS) */;
+			targetProxy = 37A796532C727E40004A8C61 /* PBXContainerItemProxy */;
+		};
+		37A7965E2C727E40004A8C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A7965A2C727E40004A8C61 /* MediaNotasUCB Extension (macOS) */;
+			targetProxy = 37A7965D2C727E40004A8C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37A7961D2C727E3F004A8C61 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A7961E2C727E3F004A8C61 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		37A7963A2C727E40004A8C61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A7963B2C727E40004A8C61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		37A7963D2C727E40004A8C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A7963E2C727E40004A8C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37A796492C727E40004A8C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A7964A2C727E40004A8C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A796802C727E40004A8C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37A796812C727E40004A8C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		37A796832C727E40004A8C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MediaNotasUCB Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB.Extension;
+				PRODUCT_NAME = "MediaNotasUCB Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A796842C727E40004A8C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MediaNotasUCB Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB.Extension;
+				PRODUCT_NAME = "MediaNotasUCB Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A796872C727E40004A8C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MediaNotasUCB;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB;
+				PRODUCT_NAME = MediaNotasUCB;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A796882C727E40004A8C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MediaNotasUCB;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB;
+				PRODUCT_NAME = MediaNotasUCB;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A7968A2C727E40004A8C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MediaNotasUCB.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MediaNotasUCB Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB.Extension;
+				PRODUCT_NAME = "MediaNotasUCB Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37A7968B2C727E40004A8C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MediaNotasUCB.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MediaNotasUCB Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB.Extension;
+				PRODUCT_NAME = "MediaNotasUCB Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37A7968E2C727E40004A8C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MediaNotasUCB.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MediaNotasUCB;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB;
+				PRODUCT_NAME = MediaNotasUCB;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37A7968F2C727E40004A8C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MediaNotasUCB.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D76TBQVUQR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MediaNotasUCB;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontinelles.MediaNotasUCB;
+				PRODUCT_NAME = MediaNotasUCB;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A7961A2C727E3E004A8C61 /* Build configuration list for PBXProject "MediaNotasUCB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A796802C727E40004A8C61 /* Debug */,
+				37A796812C727E40004A8C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A796822C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A796832C727E40004A8C61 /* Debug */,
+				37A796842C727E40004A8C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A796862C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A796872C727E40004A8C61 /* Debug */,
+				37A796882C727E40004A8C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A796892C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A7968A2C727E40004A8C61 /* Debug */,
+				37A7968B2C727E40004A8C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A7968D2C727E40004A8C61 /* Build configuration list for PBXNativeTarget "MediaNotasUCB (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A7968E2C727E40004A8C61 /* Debug */,
+				37A7968F2C727E40004A8C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A796172C727E3E004A8C61 /* Project object */;
+}

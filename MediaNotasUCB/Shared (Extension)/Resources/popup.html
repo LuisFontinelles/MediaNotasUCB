@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+<body>
+    <h1>Grades Information</h1>
+
+    <div id="segment-picker">
+        <button id="auto-mode" class="active">Auto</button>
+        <button id="manual-mode">Manual</button>
+    </div>
+
+    <div id="grades-container">
+        <div id="grades-n1">
+            <h2>Primeiro Bimestre</h2>
+            <div id="n1-subnotes" class="subnotes-container">
+                <div class="subnote-value"></div>
+            </div>
+        </div>
+
+        <div id="grades-n2">
+            <h2>Segundo Bimestre</h2>
+            <div id="n2-subnotes" class="subnotes-container">
+                <div class="subnote-value"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="manual-inputs" style="display: none;">
+        <div>
+            <label for="manual-n1">N1 Manual: </label>
+            <input type="text" id="manual-n1" placeholder="Digite notas de N1">
+        </div>
+        <div>
+            <label for="manual-n2">N2 Manual: </label>
+            <input type="text" id="manual-n2" placeholder="Digite notas de N2">
+        </div>
+    </div>
+
+    <div>
+        <label for="ppd">PPD: </label>
+        <input type="number" id="ppd" min="0" max="1" step="0.1">
+    </div>
+
+    <button id="calculateButton">Calcular</button>
+    <h2 id="result"></h2>
+
+    <p>
+        <a href="http://ava.catolica.edu.br" target="_blank">Acessar AVA</a>
+    </p>
+    <p>
+        <a href="https://portalacademico.ubec.edu.br/FrameHTML/Web/App/Edu/PortalEducacional/login/?hsCtaTracking=5fb71c5d-4c96-4f7c-8ce6-1341fd9d0b24%7Ceace7c45-8dd5-4211-9ca4-62b09200ccf9" target="_blank">Acessar Portal do Aluno</a>
+    </p>
+</body>
+</html>
